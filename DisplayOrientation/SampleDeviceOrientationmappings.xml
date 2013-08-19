@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="SampleDeviceOrientation" id="SampleDeviceOrientation">
+    <container type="form" id="frmComplex" displayname="Form"/>
+    <container type="form" id="frmComplex" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmComplex" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <globalsequences/>
+    <skins/>
+</application>
