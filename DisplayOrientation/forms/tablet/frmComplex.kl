@@ -833,6 +833,7 @@
         <win_enablescreenmenu>false</win_enablescreenmenu>
         <win_autofocus>true</win_autofocus>
         <wm_orientation>2</wm_orientation>
+        <wm_maxappmenubuttons>4</wm_maxappmenubuttons>
         <win_intransition>Default</win_intransition>
         <win_outtransition>Default</win_outtransition>
         <win_intransitionmode>Default</win_intransitionmode>
@@ -851,6 +852,7 @@
         <winphone8_layout>Vertical</winphone8_layout>
         <winphone8_showformtitle>false</winphone8_showformtitle>
         <winphone8_backButton>false</winphone8_backButton>
+        <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
             <backButtonSkin>Skin Defaults</backButtonSkin>
             <showBackButton>true</showBackButton>
@@ -24538,7 +24540,7 @@
                 <width>100</width>
                 <height>6</height>
             </sizePercent>
-            <skinId>sknLblSpaHeadrGray</skinId>
+            <skinId>sknLblSpaHeader</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
@@ -24615,7 +24617,7 @@
                     <left>0</left>
                     <right>0</right>
                     <top>0</top>
-                    <bottom>2</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -24681,8 +24683,8 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaipad>
-                <spaipad_override>false</spaipad_override>
-                <spatablet_android_override>false</spatablet_android_override>
+                <spaipad_override>true</spaipad_override>
+                <spatablet_android_override>true</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>1</left>
@@ -24949,7 +24951,7 @@
                     <unit>%</unit>
                 </spaipad>
                 <spaipad_override>false</spaipad_override>
-                <spatablet_android_override>false</spatablet_android_override>
+                <spatablet_android_override>true</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
@@ -24970,8 +24972,8 @@
                 <tabspaAndroid>
                     <left>0</left>
                     <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
                 <tabspaWindows>
