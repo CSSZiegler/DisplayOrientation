@@ -1,4 +1,4 @@
-SampleDeviceOrientation
+DeviceOrientation
 =======================
 
 Application to Showcase behavior of form contents on changing device orientation
