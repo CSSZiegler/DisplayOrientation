@@ -15,7 +15,7 @@ This application will showcase how the content of the form will adjust when you 
  * SPA iPhone
  
 **Tablet** 
- * Anroid
+ * Android
  * iPad
  * SPA iPad
  * SPA Android
