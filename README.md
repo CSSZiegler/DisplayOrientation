@@ -1,11 +1,11 @@
 DeviceOrientation
 =======================
 
-Application to Showcase behavior of form contents on changing device orientation
+Application to Showcase behavior of form contents on changing Display Orientation
 
 
 # Purpose
-This application will showcase how the content of the form will adjust when you change the device orientation
+This application will showcase how the content of the form will adjust when you change the Display orientation
 
 # Supported platforms:
 **Mobile**
