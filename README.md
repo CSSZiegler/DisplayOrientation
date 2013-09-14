@@ -1,4 +1,4 @@
-DeviceOrientation
+DisplayOrientation
 =======================
 
 Application to Showcase behavior of form contents on changing Display Orientation
