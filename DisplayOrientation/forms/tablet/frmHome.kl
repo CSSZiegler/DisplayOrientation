@@ -465,6 +465,7 @@
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -530,6 +531,7 @@
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -660,6 +662,12 @@
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -689,6 +697,9 @@
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -1376,6 +1387,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -1569,7 +1581,7 @@
                 </spaipad>
                 <spaipad_override>true</spaipad_override>
                 <spatablet_android_override>true</spatablet_android_override>
-                <spatablet_windows_override>false</spatablet_windows_override>
+                <spatablet_windows_override>true</spatablet_windows_override>
                 <symbian>
                     <left>1</left>
                     <right>1</right>
@@ -1594,10 +1606,10 @@
                     <unit>%</unit>
                 </tabspaAndroid>
                 <tabspaWindows>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>4</left>
+                    <right>6</right>
+                    <top>15</top>
+                    <bottom>4</bottom>
                     <unit>%</unit>
                 </tabspaWindows>
                 <thinclient>
@@ -1616,7 +1628,7 @@
                     <bottom>30</bottom>
                     <unit>px</unit>
                 </windows8>
-                <windows8_override>false</windows8_override>
+                <windows8_override>true</windows8_override>
                 <winmobile>
                     <left>12</left>
                     <right>12</right>
@@ -1836,7 +1848,7 @@
                 </spaipad>
                 <spaipad_override>true</spaipad_override>
                 <spatablet_android_override>true</spatablet_android_override>
-                <spatablet_windows_override>false</spatablet_windows_override>
+                <spatablet_windows_override>true</spatablet_windows_override>
                 <symbian>
                     <left>1</left>
                     <right>1</right>
@@ -1861,10 +1873,10 @@
                     <unit>%</unit>
                 </tabspaAndroid>
                 <tabspaWindows>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </tabspaWindows>
                 <thinclient>
@@ -1879,8 +1891,8 @@
                 <windows8>
                     <left>6</left>
                     <right>6</right>
-                    <top>24</top>
-                    <bottom>24</bottom>
+                    <top>18</top>
+                    <bottom>18</bottom>
                     <unit>px</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
@@ -2048,6 +2060,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>
@@ -2721,6 +2734,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -2791,6 +2805,7 @@
                 <seqname></seqname>
             </evtSequence>
         </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
