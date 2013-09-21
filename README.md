@@ -11,11 +11,14 @@ This application will showcase how the content of the form will adjust when you 
 **Mobile**
  * Android
  * iPhone
+ * windows phone 7.5
+ * windows phone 8
  * SPA Android
  * SPA iPhone
  
 **Tablet** 
  * Android
+ * windows 8
  * iPad
  * SPA iPad
  * SPA Android
